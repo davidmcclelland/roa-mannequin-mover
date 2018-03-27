@@ -7,7 +7,7 @@
 // @downloadURL    https://github.com/davidmcclelland/roa-mannequin-mover/raw/master/roa-mannequin-mover.user.js
 // @description    Moves the mannequin to a more convenient location
 // @match          https://*.avabur.com/game*
-// @version        0.0.2
+// @version        0.0.3
 // @run-at         document-end
 // @connect        githubusercontent.com
 // @connect        github.com
