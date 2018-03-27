@@ -7,7 +7,7 @@
 // @downloadURL    https://github.com/davidmcclelland/roa-mannequin-mover/raw/master/roa-mannequin-mover.user.js
 // @description    Moves the mannequin to a more convenient location
 // @match          https://*.avabur.com/game*
-// @version        0.0.1
+// @version        0.0.2
 // @run-at         document-end
 // @connect        githubusercontent.com
 // @connect        github.com
@@ -28,7 +28,7 @@
 		mannequinInfo.css('display', 'inline-block');
 	}
 
-	const INTERNAL_UPDATE_URL = "https://api.github.com/repos/davidmcclelland/notifications-of-avabur/contents/notifications-of-avabur.user.js";
+	const INTERNAL_UPDATE_URL = "https://api.github.com/repos/davidmcclelland/roa-mannequin-mover/contents/roa-mannequin-mover.user.js";
 	let checkForUpdateTimer = 0;
 
 	function versionCompare(v1, v2) {
