@@ -1,6 +1,8 @@
 # Relics of Avabur Mannequin Mover
 Moves Ava's mannequin quick-select to the main page for easier access
 
+![Mannequin Mover Screenshot](https://i.imgur.com/cTA5vKN.png)
+
 ## Installation
 * Install TamperMonkey ([Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)), ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))
   * GreaseMonkey on FireFox is not recommended, but feel free to test it.
