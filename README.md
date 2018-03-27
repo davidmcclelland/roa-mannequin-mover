@@ -1,10 +1,10 @@
-#Relics of Avabur Mannequin Mover
+# Relics of Avabur Mannequin Mover
 Moves Ava's mannequin quick-select to the main page for easier access
 
 ## Installation
 * Install TamperMonkey ([Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)), ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/))
   * GreaseMonkey on FireFox is not recommended, but feel free to test it.
-* After installing TamperMonkey, install [Notifications of Avabur](https://github.com/davidmcclelland/roa-mannequin-mover/raw/master/roa-mannequin-mover.user.js)
+* After installing TamperMonkey, install [RoA Mannequin Mover](https://github.com/davidmcclelland/roa-mannequin-mover/raw/master/roa-mannequin-mover.user.js)
 * Refresh Avabur
 
 ## Warnings
