@@ -7,7 +7,7 @@
 // @downloadURL    https://github.com/davidmcclelland/roa-mannequin-mover/raw/master/roa-mannequin-mover.user.js
 // @description    Moves the mannequin to a more convenient location
 // @match          https://*.avabur.com/game*
-// @version        0.1.0
+// @version        0.2.0
 // @run-at         document-end
 // @connect        githubusercontent.com
 // @connect        github.com
@@ -27,6 +27,16 @@
 		$('#rightWrapper').append(surroundingDiv);
 		surroundingDiv.append(mannequinInfo);
 		mannequinInfo.css('display', 'inline-block');
+	}
+
+	function addJumpToMannequinButton() {
+		const mannequinButton = $('<input type="button" value="View" style="padding: 6.5px;">');
+		mannequinButton.click(function() {
+			$("<a>").addClass("houseViewRoomItem").attr({"data-roomtype": 1, "data-itemtype": 104}).appendTo("#modal2Content").click();
+		});
+		const mannequinInfo = $('#mannequinInfo');
+
+		mannequinInfo.append(mannequinButton);
 	}
 
 	const INTERNAL_UPDATE_URL = "https://api.github.com/repos/davidmcclelland/roa-mannequin-mover/contents/roa-mannequin-mover.user.js";
@@ -83,6 +93,7 @@
 
 	loadMannequinState();
 	moveElements();
+	addJumpToMannequinButton();
 	checkForUpdateTimer = setTimeout(checkForUpdate, 10000);
 	$('#mannequinSwap').click(saveMannequinState);
 })(jQuery);
